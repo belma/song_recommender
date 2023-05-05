@@ -17,7 +17,7 @@ from prettytable import PrettyTable
 # Set up Spotify API client
 
 auth_manager = SpotifyClientCredentials(client_id=client_id,
-                                         client_secret=client_secret_id)
+                                         client_secret=client_secret)
 sp = spotipy.Spotify(auth_manager=auth_manager)
 
 
